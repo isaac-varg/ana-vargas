@@ -11,6 +11,7 @@ const contact = async (req, res) => {
       html: `
                   <body>
                     <p> From: ${req.body.name} </p><br />
+                    <p> Email: ${req.body.email}</p><br />
                     <p>${req.body.message}</p>
                   </body>
               `,

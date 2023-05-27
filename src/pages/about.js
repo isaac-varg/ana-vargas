@@ -21,7 +21,7 @@ const About = () => {
             </div>
 
             <Text>
-              Whether it's crafting a social media strategy, designing a website
+              Whether {"it's"} crafting a social media strategy, designing a website
               or creating a marketing campaign, I bring a unique blend of
               creativity and technical expertise to all of my projects.
             </Text>

@@ -75,7 +75,7 @@ const Contact = () => {
       </SubmitModal>
       <div className="px-4 lg:px-32 pt-4 lg:pt-24 flex flex-col sm:flex-row space-x-26">
         <div className="flex flex-col w-auto sm:w-1/2">
-          <BigText justify="start">Let's chat</BigText>
+          <BigText justify="start">{"Let's"} chat</BigText>
 
           <div className="mb-12">
             <Text>
