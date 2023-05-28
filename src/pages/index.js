@@ -46,7 +46,7 @@ export async function getStaticProps() {
       props: {
         showcaseEntries: entries,
       },
-      revalidate: 1000,
+      revalidate: 100,
     };
   } catch (error) {
     console.log("Error:", error);

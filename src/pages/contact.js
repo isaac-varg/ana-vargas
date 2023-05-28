@@ -49,7 +49,6 @@ const Contact = () => {
       },
       method: "POST",
     });
-
     if (res.status !== 200) {
       setModalContent({
         title: "Error Sending Message",

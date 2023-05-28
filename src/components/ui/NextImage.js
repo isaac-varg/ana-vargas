@@ -4,8 +4,6 @@ const NextImage = (props) => {
     const { photo, imageProps, wrapperStyle } = props;
     const { alt, title, sizes, className, onClick } = imageProps;
 
-    console.log(sizes)
-
     return <>
      <div style={{ ...wrapperStyle, position: "relative" }}>
         

@@ -18,7 +18,6 @@ const Gallery = ({galleryEntries}) => {
   const handleImageClick = (item) => {
     switch (item.type) {
       case "Image":
-        console.log(item);
         handleLightboxOpen(item.id)
         break;
       case "Video":
@@ -39,7 +38,6 @@ const Gallery = ({galleryEntries}) => {
     const index = galleryEntries.filter((item) => item.type !== "Video" ).findIndex((photo) => photo.id === id);
     setPhotoIndex(index);
   }
-  console.log(galleryEntries)
   return (
     <>
       <div className="flex flex-col justify-center items-center space-x-2 mb-6 text-center mt-8 lg:mt-24">
@@ -116,7 +114,7 @@ export async function getStaticProps() {
       props: {
         galleryEntries: entries,
       },
-      revalidate: 1000,
+      revalidate: 100,
     };
   } catch (error) {
     console.log("Error:", error);

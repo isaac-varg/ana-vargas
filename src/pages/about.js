@@ -11,7 +11,7 @@ const About = () => {
     <>
       <div className="flex flex-col sm:flex-row mt-8 lg:mt-28 lg: gap-x-10 lg:gap-y-0 gap-y-4 px-0 lg:px-20 mb-36">
         <div className=" sm:basis-1/2">
-          <Image src={ana2} className="rounded-md"/>
+          <Image src={ana2} alt="Ana Vargas" className="rounded-md"/>
         </div>
         <div className=" basis-1/2 ">
           <div className="flex flex-col space-y-10 h-full pl-0 lg:pl-20 ">

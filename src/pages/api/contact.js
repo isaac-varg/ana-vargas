@@ -2,7 +2,7 @@ import sendgrid from "@sendgrid/mail";
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 const contact = async (req, res) => {
-  console.log(req.body);
+
   try {
     const results = await sendgrid.send({
       to: "contact@anavargas.design",

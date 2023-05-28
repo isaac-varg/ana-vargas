@@ -20,7 +20,7 @@ export default async function handler(req, res) {
         },
       },
     });
-    console.log(rawEntries.results[0])
+
     const entries =  rawEntries.results.map(({ properties }) => ({
       id: generateId(),
       type: properties.type,
