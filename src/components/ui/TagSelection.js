@@ -19,7 +19,7 @@ const TagSelection = ({ photos, onTagClick, selectedTag }) => {
 
   return (
     <>
-      <div className="flex flew-row justify-start sm:justify-center space-x-2 sm:space-x-10">
+      <div className="flex flew-row flex-wrap justify-start sm:justify-center space-x-2 sm:space-x-10">
         <Tag
           onTagClick={onTagClick}
           selectedTag={selectedTag}
