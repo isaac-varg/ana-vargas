@@ -8,10 +8,16 @@ const nextConfig = {
         hostname: 'i.imgur.com',
         port: '',
         pathname: '/*'
-
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: process.env.BUCKET_URL,
+        port: '',
+        pathname: '/**'
+      },
     ]
   }
 };
 
 module.exports = nextConfig;
+
