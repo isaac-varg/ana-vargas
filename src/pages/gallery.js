@@ -114,7 +114,6 @@ export async function getStaticProps() {
       props: {
         galleryEntries: entries,
       },
-      revalidate: 100,
     };
   } catch (error) {
     console.log("Error:", error);
