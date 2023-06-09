@@ -25,6 +25,7 @@ const GalleryImage = ({ id, image, width, height, type, onImageClick }) => {
           height={height}
           alt="This image"
           className="rounded-md mb-6"
+          priority={true}
         />
 
         {isVideo && isHovered && (
