@@ -26,7 +26,7 @@ const PricingSection = () => {
       <div className="grid grid-cols-3 gap-x-20 ">
         {/* <div className="flex justify-evenly space-x-4"> */}
         {pricingOptions.map((option) => {
-          return <PriceCard priceOption={option} />;
+          return <PriceCard key={option.title} priceOption={option} />;
         })}
       </div>
     </div>

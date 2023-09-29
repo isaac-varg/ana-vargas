@@ -16,6 +16,7 @@ type GalleryItemProps = {
 const GalleryItem = ({ item, onItemSelection }: GalleryItemProps) => {
   const { state } = useContext(TagContext);
   const itemType = item.resource_type;
+  const id = useId();
 
   if (
     state.selectedHomepageTag !== "All" &&
@@ -55,7 +56,7 @@ const GalleryItem = ({ item, onItemSelection }: GalleryItemProps) => {
               alt={item.filename}
               width={item.width}
               height={item.height}
-              id={useId()}
+              id={id}
             />
 
             <motion.div

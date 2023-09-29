@@ -5,7 +5,7 @@ const SocialHandles = () => {
   return (
     <div className="flex flex-row space-x-10">
                 {socialHandles.map( social => {
-                  return <SocialIcon socialHandle={social} />
+                  return <SocialIcon key={social.handle} socialHandle={social} />
                 })}
               </div>
   )

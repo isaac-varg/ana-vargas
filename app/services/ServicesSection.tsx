@@ -18,12 +18,12 @@ const ServicesSection = () => {
         <SectionText>{servicesSectionTitle}</SectionText>
 
         {servicesSectionDescriptions.map((description) => {
-          return <p>{description}</p>;
+          return <p key={Math.random()}>{description}</p>;
         })}
       </div>
       <div className="col-span-2 grid grid-cols-3 gap-x-8 gap-y-8">
         {servicesCards.map((service) => {
-          return <ServiceCard service={service} />;
+          return <ServiceCard key={Math.random()} service={service} />;
         })}
       </div>
     </div>
