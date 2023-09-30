@@ -13,7 +13,7 @@ const Availability = () => {
         </div>
       </div>
 
-        <div className="w-1/2">
+        <div className="w-full sm:w-1/2">
         <SectionText>
             {largeText}
         </SectionText>

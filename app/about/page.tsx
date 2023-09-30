@@ -20,7 +20,7 @@ const About = async () => {
 
   return (
     <>
-      <div className="flex flex-col sm:flex-row mt-8 lg:mt-28 lg: gap-x-10 lg:gap-y-0 gap-y-4 px-0 lg:px-20 mb-36">
+      <div className="flex flex-col sm:flex-row mt-8 lg:mt-28 lg: gap-x-10 lg:gap-y-0 gap-y-4 px-2 sm:px-0 lg:px-20 mb-36">
         <div className=" sm:basis-1/2">
           <Image
             src={

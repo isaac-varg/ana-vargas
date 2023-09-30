@@ -13,7 +13,7 @@ const AvailabilitySection = () => {
         </div>
       </div>
 
-        <div className="w-1/2">
+        <div className="w-full sm:w-1/2">
         <SectionText>
             {availabilitySectionText}
         </SectionText>

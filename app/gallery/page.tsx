@@ -24,7 +24,7 @@ const GalleryPage = async () => {
   const homepagePhotos = await getHomepagePhotos();
 
   return (
-    <main className="flex flex-col min-h-screen items-center p-24">
+    <main className="flex flex-col min-h-screen items-center px-2 sm:p-24">
 
         <div className="flex items-center justify-center mb-8">
             <BigText>{bigBlurb}</BigText>
