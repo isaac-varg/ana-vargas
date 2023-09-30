@@ -12,5 +12,5 @@ export const skillsCards = [
     {
         title: 'Product Photography',
         blurbText: `I have a deep understanding of the intricacies of product photography. From small-scale items to larger objects, I excel in showcasing the essence and unique features of your products.`
-    }
+    },
 ];
