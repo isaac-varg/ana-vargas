@@ -42,11 +42,9 @@ const About = async () => {
             </div>
 
             <p>
-              Whether {"it's"} crafting a social media strategy, designing a
-              website or creating a marketing campaign, I bring a unique blend
-              of creativity and technical expertise to all of my projects.
+            I'm Ana Vargas, a content creator located in beautiful Southern California. My passion lies in crafting minimalistic and aesthetically pleasing content that resonates with your brand's vision. Join me in streamlining your brand management for effortless success. Together, we can create a seamless and captivating online presence that sets your brand apart.
+
             </p>
-            <h1> I strive for a minimal and beautiful design.</h1>
             <div>
               <BigButton path="/contact">Contact Me</BigButton>
             </div>

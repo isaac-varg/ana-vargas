@@ -22,7 +22,7 @@ const ServicesSection = () => {
           })}
         </div>
 
-        <div className="md:col-span-2 grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-x-8 md:gap-y-8 mt-4 sm:mt-0">
+        <div className="md:col-span-2 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-x-8 md:gap-y-8 mt-4 sm:mt-0">
           {servicesCards.map((service) => {
             return <ServiceCard key={Math.random()} service={service} />;
           })}
