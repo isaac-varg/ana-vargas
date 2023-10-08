@@ -42,7 +42,7 @@ const About = async () => {
             </div>
 
             <p>
-            I'm Ana Vargas, a content creator located in beautiful Southern California. My passion lies in crafting minimalistic and aesthetically pleasing content that resonates with your brand's vision. Join me in streamlining your brand management for effortless success. Together, we can create a seamless and captivating online presence that sets your brand apart.
+            I&apos;m Ana Vargas, a content creator located in beautiful Southern California. My passion lies in crafting minimalistic and aesthetically pleasing content that resonates with your brand&apos;s vision. Join me in streamlining your brand management for effortless success. Together, we can create a seamless and captivating online presence that sets your brand apart.
 
             </p>
             <div>
